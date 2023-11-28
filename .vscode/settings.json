@@ -17,10 +17,9 @@
   "files.autoSave": "afterDelay",
   "screencastMode.onlyKeyboardShortcuts": true,
   "terminal.integrated.fontSize": 18,
-  "workbench.colorTheme": "Kimbie Dark",
+  "workbench.colorTheme": "Default Dark+",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
   "python.linting.enabled": false,
   "python.terminal.executeInFileDir": true,
-  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
 }
