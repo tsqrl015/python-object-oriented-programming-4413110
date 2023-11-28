@@ -8,7 +8,7 @@
 # Company (string)
 # And a method get_description() which returns a string in the form
 # of "Ticker: Company -- $Price"
-#DONE!
+#DONE - now on CHAPTER 2
 
 class Stock:
     
