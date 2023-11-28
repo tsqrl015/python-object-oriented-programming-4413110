@@ -20,5 +20,7 @@
   "workbench.colorTheme": "Kimbie Dark",
   "workbench.fontAliasing": "antialiased",
   "workbench.statusBar.visible": true,
-  "python.linting.enabled": false
+  "python.linting.enabled": false,
+  "python.terminal.executeInFileDir": true,
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
 }
