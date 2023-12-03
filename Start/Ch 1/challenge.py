@@ -11,20 +11,21 @@
 
 class Stock:
     
-    def __init__(self, ticker_var, price_var, company_var):
+    def __init__(self, ticker_var, price_var, company_var, rating_var):
         self.ticker_var = ticker_var
         self.price_var = price_var
         self.company_var = company_var
+        self.rating = rating_var
 
     def get_description(self) -> str:
-        output_str = self.ticker_var + " : " + self.company_var + " -- $" + str(self.price_var)
+        output_str = self.ticker_var + " : " + self.company_var + " -- $" + str(self.price_var) + " (Stock Rating: " + self.rating + ")"
         return output_str
         
 # ~~~~~~~~~ TEST CODE ~~~~~~~~~
-msft = Stock("MSFT", 342.0, "Microsoft Corp")
-goog = Stock("GOOG", 135.0, "Google Inc")
-meta = Stock("META", 275.0, "Meta Platforms Inc")
-amzn = Stock("AMZN", 135.0, "Amazon Inc")
+msft = Stock("MSFT", 342.0, "Microsoft Corp", "Buy")
+goog = Stock("GOOG", 135.0, "Google Inc", "Buy")
+meta = Stock("META", 275.0, "Meta Platforms Inc", "Sell")
+amzn = Stock("AMZN", 135.0, "Amazon Inc", "Sell")
 
 print(msft.get_description())
 print(goog.get_description())
